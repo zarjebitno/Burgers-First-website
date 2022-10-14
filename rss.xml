@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Hungry?</title>
+			<description>Check our what's new on the menu!</description>
+			<link>https://burgersonict.000webhostapp.com/menu.html</link>
+		</item>
+		<item>
+			<title>What is a hamburger?</title>
+			<description>Ever wondered what a hamburger is? Come find out!</description>
+			<link>https://burgersonict.000webhostapp.com/origin.html</link>
+		</item>
+	</channel>
+</rss>

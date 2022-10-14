@@ -1,0 +1,412 @@
+@font-family: 'Anton', sans-serif;
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background-image:url("../image/background.jpg");
+	background-repeat:repeat;
+}
+.cleaner{
+	clear:both;
+}
+#wrap{
+	width:1000px;
+	background-color:#CCDAD1;
+	margin:0 auto;
+	box-shadow:4px 0px 6px 0px rgba(52,19,15,1);
+}
+#header{
+	width:inherit;
+	height:100px;
+	position:relative;
+	top:0px;
+}
+#logo{
+	width:450px;
+	height:inherit;
+}
+#logo img{
+	height:100%;
+	width:100%;
+}
+#search{
+	position:absolute;
+	top:10px;
+	right:30px;
+	width:120px;
+	padding:5px;
+	border-radius:10px;
+	outline:none;
+}
+#search:hover{
+	width:180px;
+	transition:2s;
+}
+#meni{
+	width:100%;
+	height:40px;
+	background-color:#893422;
+	text-align:center;
+	
+}
+#meni ul{
+	list-style-type:none;
+	display:inline-block;
+}
+#meni ul li{
+	display:inline;
+}
+#meni ul li a{
+	float:left;
+	color:#fff;
+	font-family:Anton;
+	padding:4px 55px;
+}
+#meni ul li a:hover{
+	font-size:22px;
+}
+#navigacija{
+	font-size:20px;
+}
+#content{
+	width:100%;
+	margin:15px 0px;
+}
+#slika{
+	background-image:url("../image/burger_naslovna.jpg");
+	background-repeat:no-repeat;
+	width:100%;
+	height:480px;
+	border-radius:15px;
+	position:relative;
+	top:0px;
+}
+#slika a{
+	position:absolute;
+	font-size:45px;
+	font-family:Anton;
+	color:#FFF;
+	padding:10px 30px;
+	top:258px;
+	left:390px;
+	border:1px #fff solid;
+	border-radius:15px;
+	background-color:rgba(0,0,0,0.6);
+}
+#slika a:hover{
+	background-color:rgba(0,0,0,0.3);
+}
+#tekst{
+	width:500px;
+	margin:20px auto;
+	padding-bottom:15px;
+}
+#tekst h1{
+	font-family:Anton;
+	text-align:center;
+	margin-bottom:10px;
+}
+#tekst p{
+	font-family:Arial;
+	text-align:center;
+}
+#footer{
+	width:100%;
+	height:100px;
+	background-color:#893422;
+	border-radius:20px 20px 0px 0px;
+	position:relative;
+	left:0px;
+}
+#social{
+	height:50px;
+	width:400px;
+	position:absolute;
+	top:30px;
+	left:40px;
+}
+.soc{
+	height:50px;
+	width:50px;
+	border-radius:25px;
+	background-color:#fff;
+	float:left;
+	margin-right:22px;
+}
+.soc1{
+	height:30px;
+	width:30px;
+	position:absolute;
+}
+.soc img:hover{
+	width:31px;
+	height:31px;
+}
+.fb{left:10px;
+	top:10px;}
+.yt{
+	left:82px;
+	top:10px;}
+.insta{
+	left:154px;
+	top:10px;}
+.twitter{
+	left:226px;
+	top:10px;
+}
+.rss{
+	top:9px;
+	right:72px;
+}
+#meniDole{
+	width:300px;
+	float:right;
+	margin-top:10px;
+	position:absolute;
+	right:35px;
+	top:30px;
+}
+#footer ul{
+	list-style-type: none;
+	float:right;
+}
+#footer ul li{
+	display:inline;
+}
+#footer ul li a{
+	color:#fff;
+	font-family:Anton;
+	margin-right:5px;
+}
+#footer ul li a:hover{
+	font-size:17px;
+}
+/* MENU */
+#meniBlok{
+	width:960px;
+	margin:0 auto;
+}
+#meniBlok h1{
+	font-family:'Anton';
+	text-align:center;
+	font-size:50px;
+	padding-bottom:30px;
+}
+.menu{
+	width:300px;
+	height:300px;
+	background-image:url('../image/menu.jpg');
+	background-repeat:repeat-x;
+	margin:10px;
+	float:left;
+	border-radius:100px;
+}
+.menu:hover{
+	opacity:0.8;
+}
+.slika1{
+	background-position:-20px -20px;
+}
+.slika2{
+	background-position: -660px -15px;
+}
+.slika3{
+	background-position: -20px -350px;
+}
+.slika4{
+	background-position: -340px -350px;
+}
+.slika5{
+	background-position:-660px -340px;
+}
+.slika6{
+	background-position: -1000px -680px;
+}
+.slika7{
+	background-position: -20px -1300px;
+}
+.slika8{
+	background-position: -340px -1310px;
+}
+.slika9{
+	background-position: -660px -1000px;
+}
+/* ABOUT */
+
+#blok{
+	width:650px;
+	height:400px;
+	margin:0 auto;
+}
+#aboutSlika{
+	width:220px;
+	height:300px;
+	float:left;
+	margin-top:25px;
+}
+#aboutSlika img{
+	height:100%;
+	width:100%;
+	border-radius:20px;
+}
+#aboutAutor{
+	width:400px;
+	height:300px;
+	float:right;
+	margin-top:25px;
+}
+#aboutAutor h1{
+	font-family:'Anton';
+	text-align:center;
+	padding-bottom:10px;
+}
+#aboutAutor p{
+	padding-top:10px;
+	font-family:Arial;
+	font-size:17px;
+}
+/* ORIGIN */
+#originTekst{
+	width:600px;
+	float:left;
+	margin-left:15px;
+}
+#originTekst h2{
+	font-family:'Anton';
+	font-size:23px;
+	text-align:center;
+}
+#originTekst p{
+	font-family:'Arial';
+	font-size:14px;
+	text-align:justify;
+	padding:20px;
+}
+#originAnketa{
+	width:320px;
+	height:220px;
+	float:right;
+	margin-right:15px;
+	margin-top:15px; 
+	border-left:1px solid #000;
+}
+#originAnketa h1{
+	text-align:center;
+	font-family:'Anton';
+}
+#originForma{
+	margin:20px auto;
+	width:200px;
+}
+input[type=radio]{
+	margin-right:3px;
+	
+}
+#members{
+	width:250px;
+	height:100px;
+	float:right;
+	margin-top:20px;
+	margin-right:60px;
+	height:150px;
+}
+#username{
+	width:100px;
+	padding:3px;
+}
+#password{
+	width:100px;
+	padding:3px;
+	border-radius:20px;
+	border:1px solid #808080;
+	margin-left:3px;
+	outline:none;
+}
+#password:focus{
+	border:2px solid #000;
+}
+#members h1{
+	text-align:center;
+	font-family:'Anton';
+}
+#loginButton{
+	padding:5px;
+	border-radius:25px;
+	background-color:#fff;
+	border:1px solid black;
+	margin-left:5px;
+}
+/* CONTACT */
+#blokForma h1{
+	font-family:'Anton';
+	color:#000;
+	text-align:center;
+	padding:5px 0px;
+}
+#blokForma{
+	width:280px;
+	margin:0 auto;
+}
+#submit{
+	padding:5px;
+	margin:15px 120px 0;
+	border-radius:10px;
+	border:1px solid #000;
+	float:right;
+}
+input[type="text"]{
+	width:250px;
+	padding:10px;
+	border-radius:20px;
+	background-color:#fff;
+	margin:10px 0px;
+	outline:none;
+	border:1px solid #808080;
+}
+input[type="email"]:focus{
+	border:2px solid #000;
+	transition:0.3s;
+}
+input[type="email"]{
+	width:250px;
+	padding:10px;
+	border-radius:20px;
+	background-color:#fff;
+	margin:10px 0px;
+	outline:none;
+	border:1px solid #808080;
+}
+input[type="text"]:focus{
+	border:2px solid #000;
+	transition:0.3s;
+}
+input[placeholder]{
+	text-align:center;
+}
+textarea{
+	border-radius:10px;
+	margin:10px 0px;
+	outline:none;
+	font-family:'Arial';
+	width:270px;
+	border:1px solid #808080;
+	text-align:center;
+	padding-top:10px;
+}
+textarea:focus{
+	border:2px solid #000;
+	transition:0.3s;
+}
+#buttonSubmit{
+	float:right;
+	padding:7px;
+	border-radius:10px;
+	margin-right:50px;
+	margin-bottom:10px;
+	background-color:#fff;
+	border;none;
+}
